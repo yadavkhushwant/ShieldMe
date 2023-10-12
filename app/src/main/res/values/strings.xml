@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ShieldMe</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="add_new">Add New</string>
+    <string name="my_contacts">My contacts</string>
+    <string name="send_emergency_message">Send Emergency Message</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="emergency">Emergency</string>
+</resources>
