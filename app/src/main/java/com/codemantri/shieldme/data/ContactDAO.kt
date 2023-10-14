@@ -19,7 +19,7 @@ interface ContactDAO {
     @Delete
     fun deleteContact(contactEntity: ContactEntity)
 
-    @Query("SELECT * FROM contacts")
+    @Query("SELECT * FROM contacts ORDER BY name COLLATE NOCASE ASC")
     fun getAllContacts(): Flow<List<ContactEntity>>
 
     @Query("SELECT number FROM contacts")
